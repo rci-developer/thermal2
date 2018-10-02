@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Wed, 05 Sep 2018 13:33:25 +0000 on https://www.thermalimageuk.co.uk
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.5.24 WP: 4.9.8 PHP: 7.0.31 (cgi-fcgi, Linux web78.extendcp.co.uk 2.6.32-754.2.1.el6.x86_64 #1 SMP Fri Jul 13 12:50:12 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: en_GB Server: Apache/2.4.33 (Unix) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.9M | 58M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (1) Free space on disk containing Updraft's temporary directory: 207597.7 MB
+0000.006 (1) This backup task (e915ea10658b) is either complete or began over 2 days ago: ending (1536154405.0189, ) (existing jobdata keys: )

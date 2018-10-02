@@ -1,0 +1,43 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= General =================== */
+
+/** General >> Fusion one fourth fusion column wrapper **/
+.fusion-one-fourth .fusion-column-wrapper {
+	padding-right: 50px !important;
+}
+
+/** General >> Fusion one full fusion column content **/
+.fusion-one-full .fusion-column-content {
+	padding-bottom: 500px !important;
+}
+
+
+/*[ Tablet & Phone ]*/
+@media (max-width: 767px) {
+
+	/*= General =================== */
+
+	/** General >> Rac custom **/
+	.rac-custom {
+		padding-right: 0 !important;
+		padding-left: 65px !important;
+	}
+
+	/** General >> Fusion mobile logo **/
+	.fusion-mobile-logo {
+		margin-bottom: -75px !important;
+		margin-left: -35px !important;
+	}
+
+	/** General >> Fusion equal height columns **/
+	.fusion-equal-height-columns {
+		padding-left: 80px !important;
+	}
+
+	/** General >> Fusion one full fusion column content **/
+	.fusion-one-full .fusion-column-content {
+		padding-right: 50px !important;
+	}
+}

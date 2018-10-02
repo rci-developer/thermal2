@@ -1,0 +1,869 @@
+0000.002 (0) Opened log file at time: Fri, 28 Sep 2018 18:09:46 +0000 on https://thermalimageuk.co.uk
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.5.24 WP: 4.9.8 PHP: 7.0.32 (cgi-fcgi, Linux web75.extendcp.co.uk 2.6.32-754.2.1.el6.x86_64 #1 SMP Fri Jul 13 12:50:12 UTC 2018 x86_64) MySQL: 5.5.5 WPLANG: en_GB Server: Apache/2.4.34 (Unix) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.9M | 58M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 72046.1 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.016 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.029 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1538071256, seconds_ago=86930)
+0000.040 (0) Set semaphore last lock (fd) time to 2018-09-28 18:09:46
+0000.043 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=4141668065f2, begun at=1538158186 (0s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1538158486) in case this run gets aborted
+0000.112 (0) Checking if we have a zip executable available
+0000.117 (0) Testing: /usr/bin/zip
+0000.376 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.382 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.384 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.386 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.387 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.398 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.400 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.413 (0) Working binary zip found: /usr/bin/zip
+0000.419 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.421 (0) Creation of backups of directories: beginning
+0000.438 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0003.618 (0) Total entities for the zip file: 906 directories, 6838 files (0 skipped as non-modified), 79.7 MB
+0003.623 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.703 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 0.20 MB
+0003.760 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 100 files added (on-disk size: 209.8 KB)
+0003.834 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 200 files added (on-disk size: 209.8 KB)
+0003.898 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 300 files added (on-disk size: 209.8 KB)
+0003.956 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 400 files added (on-disk size: 209.8 KB)
+0004.008 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 500 files added (on-disk size: 209.8 KB)
+0004.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 6838 files batched, 501 (502) added so far); re-opening (prior size: 209.8 KB)
+0005.316 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 3.30 MB
+0005.360 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 600 files added (on-disk size: 3378.9 KB)
+0005.403 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 700 files added (on-disk size: 3378.9 KB)
+0005.486 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 800 files added (on-disk size: 3378.9 KB)
+0005.553 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 900 files added (on-disk size: 3378.9 KB)
+0005.590 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1000 files added (on-disk size: 3378.9 KB)
+0005.594 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 6838 files batched, 501 (1003) added so far); re-opening (prior size: 3378.9 KB)
+0006.636 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 7.20 MB
+0006.683 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1100 files added (on-disk size: 7383 KB)
+0006.722 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1200 files added (on-disk size: 7383 KB)
+0006.767 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1300 files added (on-disk size: 7383 KB)
+0006.816 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1400 files added (on-disk size: 7383 KB)
+0006.857 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1500 files added (on-disk size: 7383 KB)
+0006.861 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 6838 files batched, 501 (1504) added so far); re-opening (prior size: 7383 KB)
+0007.483 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1600 files added (on-disk size: 7616 KB)
+0007.536 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1700 files added (on-disk size: 7616 KB)
+0007.582 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1800 files added (on-disk size: 7616 KB)
+0007.655 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 1900 files added (on-disk size: 7616 KB)
+0007.739 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2000 files added (on-disk size: 7616 KB)
+0007.745 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 6838 files batched, 501 (2005) added so far); re-opening (prior size: 7616 KB)
+0008.581 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2100 files added (on-disk size: 8539.7 KB)
+0008.635 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2200 files added (on-disk size: 8539.7 KB)
+0008.692 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2300 files added (on-disk size: 8539.7 KB)
+0008.751 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2400 files added (on-disk size: 8539.7 KB)
+0008.803 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2500 files added (on-disk size: 8539.7 KB)
+0008.809 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 6838 files batched, 501 (2506) added so far); re-opening (prior size: 8539.7 KB)
+0009.977 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 10.50 MB
+0010.019 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2600 files added (on-disk size: 10794.3 KB)
+0010.066 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2700 files added (on-disk size: 10794.3 KB)
+0010.108 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2800 files added (on-disk size: 10794.3 KB)
+0010.154 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 2900 files added (on-disk size: 10794.3 KB)
+0010.202 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3000 files added (on-disk size: 10794.3 KB)
+0010.208 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 6838 files batched, 501 (3007) added so far); re-opening (prior size: 10794.3 KB)
+0012.150 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 13.30 MB
+0012.213 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3100 files added (on-disk size: 13654.8 KB)
+0012.267 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3200 files added (on-disk size: 13654.8 KB)
+0012.338 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3300 files added (on-disk size: 13654.8 KB)
+0012.406 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3400 files added (on-disk size: 13654.8 KB)
+0012.474 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3500 files added (on-disk size: 13654.8 KB)
+0012.480 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 6838 files batched, 501 (3508) added so far); re-opening (prior size: 13654.8 KB)
+0013.980 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3600 files added (on-disk size: 15230.5 KB)
+0014.049 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3700 files added (on-disk size: 15230.5 KB)
+0014.127 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3800 files added (on-disk size: 15230.5 KB)
+0014.181 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 3900 files added (on-disk size: 15230.5 KB)
+0014.242 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4000 files added (on-disk size: 15230.5 KB)
+0014.250 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 6838 files batched, 501 (4009) added so far); re-opening (prior size: 15230.5 KB)
+0015.578 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: size is now: 20.40 MB
+0015.623 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4100 files added (on-disk size: 20938.9 KB)
+0015.668 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4200 files added (on-disk size: 20938.9 KB)
+0015.724 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4300 files added (on-disk size: 20938.9 KB)
+0015.800 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4400 files added (on-disk size: 20938.9 KB)
+0015.852 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4500 files added (on-disk size: 20938.9 KB)
+0015.860 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 6838 files batched, 501 (4510) added so far); re-opening (prior size: 20938.9 KB)
+0017.138 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4600 files added (on-disk size: 24010.8 KB)
+0017.185 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip.tmp: 4700 files added (on-disk size: 24010.8 KB)
+0017.192 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (2.7 MB, 194 (4704) files added so far); last ratio: 0.5502; re-opening (prior size: 24010.8 KB)
+0018.159 (0) Zip size is at/near split limit (24.2 MB / 25 MB) - bumping index (from: 0)
+0018.611 (0) Created plugins zip (0) - 24805 KB in 17.7 s (1400 KB/s) (checksums: sha1: 68bfd248c0c126166e7cc60cecc265a21ac2a86c, sha256: 7c2a8be43b622782a10d4e23cd594f9bed7c4d7b70d9ebd548f5ac43513ad923)
+0018.672 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0018.745 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0018.796 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0018.912 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0018.959 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0018.964 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 6838 files batched, 501 (5205) added so far); re-opening (prior size: 0 KB)
+0020.034 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: size is now: 2.30 MB
+0020.080 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5300 files added (on-disk size: 2354.1 KB)
+0020.129 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5400 files added (on-disk size: 2354.1 KB)
+0020.190 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5500 files added (on-disk size: 2354.1 KB)
+0020.252 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5600 files added (on-disk size: 2354.1 KB)
+0020.324 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5700 files added (on-disk size: 2354.1 KB)
+0020.329 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 6838 files batched, 501 (5706) added so far); re-opening (prior size: 2354.1 KB)
+0021.823 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: size is now: 4.40 MB
+0021.893 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5800 files added (on-disk size: 4485.3 KB)
+0021.961 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 5900 files added (on-disk size: 4485.3 KB)
+0022.047 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6000 files added (on-disk size: 4485.3 KB)
+0022.101 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6100 files added (on-disk size: 4485.3 KB)
+0022.166 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6200 files added (on-disk size: 4485.3 KB)
+0022.172 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 6838 files batched, 501 (6207) added so far); re-opening (prior size: 4485.3 KB)
+0023.299 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6300 files added (on-disk size: 5278.1 KB)
+0023.374 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6400 files added (on-disk size: 5278.1 KB)
+0023.433 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6500 files added (on-disk size: 5278.1 KB)
+0023.487 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6600 files added (on-disk size: 5278.1 KB)
+0023.546 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6700 files added (on-disk size: 5278.1 KB)
+0023.551 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 6838 files batched, 501 (6708) added so far); re-opening (prior size: 5278.1 KB)
+0024.415 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip.tmp: 6800 files added (on-disk size: 6076.7 KB)
+0024.923 (0) Created plugins zip (1) - 6831.2 KB in 6.3 s (1082.6 KB/s) (sha1: 7046412f7345e65632eac8f4c8813abf98f290b7, sha256: 11557b4d4d1167ce437d0714d2a86374002053a9389d5980221fd2011b870b6a)
+0024.936 (0) Beginning creation of dump of themes (split every: 25 MB)
+0025.727 (0) Total entities for the zip file: 227 directories, 1539 files (0 skipped as non-modified), 18.2 MB
+0025.761 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0025.809 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0025.847 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0025.888 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0025.931 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0025.934 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 1539 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0026.809 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: size is now: 1.70 MB
+0026.840 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 600 files added (on-disk size: 1786.3 KB)
+0026.875 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 700 files added (on-disk size: 1786.3 KB)
+0026.908 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 800 files added (on-disk size: 1786.3 KB)
+0026.947 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 900 files added (on-disk size: 1786.3 KB)
+0026.987 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1000 files added (on-disk size: 1786.3 KB)
+0026.991 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 1539 files batched, 501 (1002) added so far); re-opening (prior size: 1786.3 KB)
+0028.041 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: size is now: 5.40 MB
+0028.091 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1100 files added (on-disk size: 5509.9 KB)
+0028.123 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1200 files added (on-disk size: 5509.9 KB)
+0028.176 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1300 files added (on-disk size: 5509.9 KB)
+0028.215 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1400 files added (on-disk size: 5509.9 KB)
+0028.263 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: 1500 files added (on-disk size: 5509.9 KB)
+0028.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 1539 files batched, 501 (1503) added so far); re-opening (prior size: 5509.9 KB)
+0029.154 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip.tmp: size is now: 6.70 MB
+0029.516 (0) Created themes zip (0) - 6915.4 KB in 4.6 s (1512.6 KB/s) (sha1: 90e648e83e076d8435bfddbb46d22756b04620d1, sha256: 4755c38929f4a222698b20b80776b1bedda923a3f1b5e56125df7df02f07b3d2)
+0029.525 (0) Exclusion option setting (uploads): 
+0029.527 (0) Looking for candidates to back up in: /home/sites/thermalimageuk.co.uk/public_html/wp-content/uploads
+0029.531 (0) finding files: fusion_slider_exports: adding to list (1)
+0029.533 (0) finding files: revslider: adding to list (2)
+0029.535 (0) finding files: 2015: adding to list (3)
+0029.537 (0) finding files: 2017: adding to list (4)
+0029.539 (0) finding files: 2018: adding to list (5)
+0029.542 (0) finding files: fusion-styles: adding to list (6)
+0029.544 (0) finding files: fusionredux: adding to list (7)
+0029.546 (0) finding files: fusion-builder-avada-pages: adding to list (8)
+0029.547 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0030.320 (0) Total entities for the zip file: 199 directories, 1991 files (0 skipped as non-modified), 132.8 MB
+0030.372 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.411 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.451 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0030.482 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0030.522 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.525 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 1991 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0031.753 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: size is now: 10.40 MB
+0031.796 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: 600 files added (on-disk size: 10654.3 KB)
+0031.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (13.4 MB, 130 (631) files added so far); last ratio: 1; re-opening (prior size: 10654.3 KB)
+0032.686 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip.tmp: size is now: 23.90 MB
+0032.691 (0) Zip size is at/near split limit (23.9 MB / 25 MB) - bumping index (from: 0)
+0033.165 (0) Created uploads zip (0) - 24433.5 KB in 3.1 s (7778.6 KB/s) (checksums: sha1: c55aac400c11f410c9c152e1addc5b7c97b1ce73, sha256: a4f7985f17a2bc594aef5bf9be3f5147e31165bfade74b3638e312be0a7eec3b)
+0033.203 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip.tmp: 700 files added (on-disk size: 0 KB)
+0033.246 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1991 files batched, 166 (797) added so far); re-opening (prior size: 0 KB)
+0034.355 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip.tmp: size is now: 25.10 MB
+0034.363 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 9997.8 KB/s)
+0034.369 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.5632820129395, normalised_time=2.5605569085239, max_time=-1, data points known=0, max_bytes=26214400)
+0034.373 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 1)
+0034.838 (0) Created uploads zip (1) - 25669.5 KB in 1.2 s (21218.4 KB/s) (checksums: sha1: 88d78728f3e810b989a52163dd639e8a184d10a0, sha256: 95c95ad1cd4149981b5019f36d0c197356a845c3c55cfaed88940e05c9d1663e)
+0034.854 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: 800 files added (on-disk size: 0 KB)
+0034.920 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: 900 files added (on-disk size: 0 KB)
+0034.968 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0035.036 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0035.096 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0035.121 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1991 files batched, 442 (1239) added so far); re-opening (prior size: 0 KB)
+0036.225 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip.tmp: size is now: 25.10 MB
+0036.231 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 10547.5 KB/s)
+0036.233 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.4313158988953, normalised_time=2.427113835852, max_time=-1, data points known=0, max_bytes=26214400)
+0036.236 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 2)
+0036.705 (0) Created uploads zip (2) - 25736.3 KB in 1.4 s (18419.2 KB/s) (checksums: sha1: 4186d60f0a8d15dc3498e4a81e881ef802bd5532, sha256: 5cbcbfa4296b59f7d93041e90b5c4da6c4e4ee5138c3762173336711f4f68bdd)
+0036.739 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0036.786 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0036.842 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0036.881 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0036.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 1991 files batched, 402 (1641) added so far); re-opening (prior size: 0 KB)
+0038.415 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip.tmp: size is now: 25.50 MB
+0038.425 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 9915.4 KB/s)
+0038.427 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.6253890991211, normalised_time=2.5818380152211, max_time=-1, data points known=0, max_bytes=26214400)
+0038.431 (0) Zip size is at/near split limit (25.5 MB / 25 MB) - bumping index (from: 3)
+0038.987 (0) Created uploads zip (3) - 26112.6 KB in 1.7 s (15129.4 KB/s) (checksums: sha1: fcad57dd39f8180a58d06c903689fe484b4a38cf, sha256: 404cb13ff97187859a09f9df6c2a5ed8f4353cae833eaf5a81ca7a173a158ae1)
+0039.027 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0039.074 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0039.118 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0039.138 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.1 MB, 1991 files batched, 306 (1947) added so far); re-opening (prior size: 0 KB)
+0040.281 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip.tmp: size is now: 22.60 MB
+0040.285 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 2.3 s, rate: 11181.2 KB/s)
+0040.287 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.4856069087982, normalised_time=2.2895556693641, max_time=-1, data points known=0, max_bytes=26214400)
+0040.297 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (2.7 MB, 19 (1966) files added so far); last ratio: 0.8311; re-opening (prior size: 23096.9 KB)
+0040.909 (0) Zip size is at/near split limit (22.7 MB / 25 MB) - bumping index (from: 4)
+0041.309 (0) Created uploads zip (4) - 23289.7 KB in 1.9 s (12121.4 KB/s) (checksums: sha1: 0ece8c796e53ea017183497631a33c1ea6d9c70c, sha256: 3a7241a1912d2f5eb99bc2892db2ff11ff4a3d3484d4c5dccbee69f55c1eed36)
+0041.643 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip.tmp: size is now: 0.80 MB
+0041.675 (0) Created uploads zip (5) - 829.5 KB in 0.4 s (2275.1 KB/s) (sha1: 2f6cc575ec96a7d0a327accd52532594c9b23d1d, sha256: fea0397518de9094359b9ea068bfc4c623b451bc4e264bef613e3a5088984d4b)
+0041.683 (0) Exclusion option setting (wpcore): 
+0041.685 (0) Looking for candidates to back up in: /home/sites/thermalimageuk.co.uk/public_html
+0041.688 (0) finding files: wp-signup.php: adding to list (1)
+0041.691 (0) finding files: .htaccess: adding to list (2)
+0041.693 (0) finding files: wp-blog-header.php: adding to list (3)
+0041.695 (0) finding files: robots.txt: adding to list (4)
+0041.698 (0) finding files: wp-login.php: adding to list (5)
+0041.701 (0) finding files: index.php: adding to list (6)
+0041.704 (0) finding files: google46eb453820c338b8.html: adding to list (7)
+0041.706 (0) finding files: wp-trackback.php: adding to list (8)
+0041.708 (0) finding files: wp-docs: adding to list (9)
+0041.710 (0) finding files: wp-activate.php: adding to list (10)
+0041.714 (0) finding files: readme.html: adding to list (11)
+0041.716 (0) finding files: wp-links-opml.php: adding to list (12)
+0041.718 (0) finding files: xmlrpc.php: adding to list (13)
+0041.720 (0) finding files: wp-config.php: adding to list (14)
+0041.722 (0) finding files: wp-settings.php: adding to list (15)
+0041.724 (0) finding files: wp-cron.php: adding to list (16)
+0041.726 (0) finding files: wp-comments-post.php: adding to list (17)
+0041.728 (0) finding files: wp-includes: adding to list (18)
+0041.730 (0) finding files: wp-content: skipping: this is the wp-content directory
+0041.732 (0) finding files: wp-mail.php: adding to list (19)
+0041.735 (0) finding files: wp-config-sample.php: adding to list (20)
+0041.737 (0) finding files: license.txt: adding to list (21)
+0041.740 (0) finding files: wp-load.php: adding to list (22)
+0041.743 (0) finding files: wp-admin: adding to list (23)
+0041.744 (0) Beginning creation of dump of wpcore (split every: 25 MB)
+0042.249 (0) Total entities for the zip file: 110 directories, 1347 files (0 skipped as non-modified), 22.9 MB
+0042.274 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0042.309 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 200 files added (on-disk size: 0 KB)
+0042.339 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 300 files added (on-disk size: 0 KB)
+0042.375 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 400 files added (on-disk size: 0 KB)
+0042.416 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 500 files added (on-disk size: 0 KB)
+0042.419 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 1347 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0043.323 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: size is now: 3.10 MB
+0043.353 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 600 files added (on-disk size: 3205.3 KB)
+0043.392 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 700 files added (on-disk size: 3205.3 KB)
+0043.427 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 800 files added (on-disk size: 3205.3 KB)
+0043.456 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 900 files added (on-disk size: 3205.3 KB)
+0043.479 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 1000 files added (on-disk size: 3205.3 KB)
+0043.488 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 1347 files batched, 501 (1002) added so far); re-opening (prior size: 3205.3 KB)
+0044.463 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: size is now: 5.50 MB
+0044.501 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 1100 files added (on-disk size: 5603.5 KB)
+0044.546 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 1200 files added (on-disk size: 5603.5 KB)
+0044.581 (0) Zip: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: 1300 files added (on-disk size: 5603.5 KB)
+0045.316 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip.tmp: size is now: 6.80 MB
+0045.458 (0) Created wpcore zip (0) - 6970.2 KB in 3.7 s (1879.5 KB/s) (sha1: 3f222dd108ec1bfe1ad1ee91626d06126c2e28be, sha256: be0b18e40181cebc233827e271b94c9f0df763fc1e16334f16261b66e83bb2e1)
+0045.468 (0) Beginning backup of other directories found in the content directory (index: 0)
+0045.469 (0) Exclusion option setting (others): 
+0045.471 (0) Looking for candidates to back up in: /home/sites/thermalimageuk.co.uk/public_html/wp-content
+0045.473 (0) finding files: uploads: skipping: this is the uploads directory
+0045.475 (0) finding files: languages: adding to list (1)
+0045.477 (0) finding files: index.php: adding to list (2)
+0045.478 (0) finding files: updraft: skipping: this is the updraft directory
+0045.483 (0) finding files: uploads-old-old: adding to list (3)
+0045.484 (0) finding files: uploads-old: adding to list (4)
+0045.487 (0) finding files: themes: skipping: this is the themes directory
+0045.489 (0) finding files: plugins-old: adding to list (5)
+0045.490 (0) finding files: themes-old: adding to list (6)
+0045.492 (0) finding files: index.php-old: adding to list (7)
+0045.494 (0) finding files: micro-themes: adding to list (8)
+0045.496 (0) finding files: languages-old: adding to list (9)
+0045.497 (0) finding files: index.php-old-old: adding to list (10)
+0045.500 (0) finding files: plugins: skipping: this is the plugins directory
+0045.501 (0) finding files: languages-old-old: adding to list (11)
+0045.503 (0) finding files: themes-old-old: adding to list (12)
+0045.504 (0) finding files: upgrade: adding to list (13)
+0045.564 (0) Total entities for the zip file: 16 directories, 86 files (0 skipped as non-modified), 7.5 MB
+0046.157 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip.tmp: size is now: 1.80 MB
+0046.203 (0) Created others zip (0) - 1880 KB in 0.7 s (2718.8 KB/s) (sha1: 6d65350d350004e2fd22aacf05256c92cc35ac55, sha256: 9972c8be0d7d87bca8ad01fe5332eb3dc6e73dce7f56871463e2b2ba32fcb4db)
+0046.214 (0) No backup of more: excluded by user's options
+0046.225 (0) Saving backup status to database (elements: 16)
+0046.237 (0) Beginning creation of database dump (WordPress DB)
+0046.246 (0) Testing: /usr/bin/mysqldump
+0046.477 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1228 bytes total)
+0046.482 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0046.559 (0) Table wp_options: Total expected rows (approximate): 430
+0046.607 (0) Table wp_options: Total rows added: 433 in 0.05 seconds
+0046.612 (0) Table wp_options: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_options.table.gz - 139.3 KB)
+0046.625 (0) Table wp_users: Total expected rows (approximate): 2
+0046.631 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0046.635 (0) Table wp_users: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_users.table.gz - 0.6 KB)
+0046.652 (0) Table wp_usermeta: Total expected rows (approximate): 45
+0046.663 (0) Table wp_usermeta: Total rows added: 48 in 0.01 seconds
+0046.666 (0) Table wp_usermeta: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_usermeta.table.gz - 2.6 KB)
+0046.675 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0046.680 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0046.682 (0) Table wp_commentmeta: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0046.690 (0) Table wp_comments: Total expected rows (approximate): 0
+0046.697 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0046.699 (0) Table wp_comments: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_comments.table.gz - 0.5 KB)
+0046.708 (0) Table wp_links: Total expected rows (approximate): 0
+0046.712 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0046.715 (0) Table wp_links: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_links.table.gz - 0.4 KB)
+0046.724 (0) Table wp_postmeta: Total expected rows (approximate): 1850
+0046.758 (0) Table wp_postmeta: Total rows added: 2147 in 0.03 seconds
+0046.763 (0) Table wp_postmeta: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_postmeta.table.gz - 34.4 KB)
+0046.778 (0) Table wp_posts: Total expected rows (approximate): 608
+0046.997 (0) Table wp_posts: Total rows added: 608 in 0.22 seconds
+0047.004 (0) Table wp_posts: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_posts.table.gz - 456.1 KB)
+0047.011 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0047.017 (0) Table wp_term_relationships: Total rows added: 6 in 0.00 seconds
+0047.020 (0) Table wp_term_relationships: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0047.029 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0047.035 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.00 seconds
+0047.038 (0) Table wp_term_taxonomy: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0047.050 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0047.055 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0047.058 (0) Table wp_termmeta: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_termmeta.table.gz - 0.4 KB)
+0047.069 (0) Table wp_terms: Total expected rows (approximate): 5
+0047.076 (0) Table wp_terms: Total rows added: 5 in 0.00 seconds
+0047.078 (0) Table wp_terms: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_terms.table.gz - 0.4 KB)
+0047.089 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 7
+0047.096 (0) Table wp_yoast_seo_links: Total rows added: 7 in 0.00 seconds
+0047.101 (0) Table wp_yoast_seo_links: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_yoast_seo_links.table.gz - 0.5 KB)
+0047.113 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 5
+0047.121 (0) Table wp_yoast_seo_meta: Total rows added: 6 in 0.01 seconds
+0047.124 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_yoast_seo_meta.table.gz - 0.4 KB)
+0047.139 (0) Table wp_layerslider: Total expected rows (approximate): 5
+0047.150 (0) Table wp_layerslider: Total rows added: 5 in 0.01 seconds
+0047.153 (0) Table wp_layerslider: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_layerslider.table.gz - 5.8 KB)
+0047.167 (0) Table wp_layerslider_revisions: Total expected rows (approximate): 0
+0047.177 (0) Table wp_layerslider_revisions: Total rows added: 0 in 0.01 seconds
+0047.180 (0) Table wp_layerslider_revisions: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_layerslider_revisions.table.gz - 0.3 KB)
+0047.198 (0) Table wp_masterslider_options: Total expected rows (approximate): 5
+0047.248 (0) Table wp_masterslider_options: Total rows added: 5 in 0.00 seconds
+0047.250 (0) Table wp_masterslider_options: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_masterslider_options.table.gz - 0.5 KB)
+0047.260 (0) Table wp_masterslider_sliders: Total expected rows (approximate): 0
+0047.266 (0) Table wp_masterslider_sliders: Total rows added: 1 in 0.00 seconds
+0047.269 (0) Table wp_masterslider_sliders: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_masterslider_sliders.table.gz - 1.6 KB)
+0047.281 (0) Table wp_micro_revisions: Total expected rows (approximate): 29
+0047.291 (0) Table wp_micro_revisions: Total rows added: 50 in 0.01 seconds
+0047.295 (0) Table wp_micro_revisions: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_micro_revisions.table.gz - 8.2 KB)
+0047.305 (0) Table wp_revslider_css: Total expected rows (approximate): 121
+0047.314 (0) Table wp_revslider_css: Total rows added: 121 in 0.01 seconds
+0047.317 (0) Table wp_revslider_css: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_css.table.gz - 5.2 KB)
+0047.328 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0047.334 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0047.337 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0047.350 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0047.359 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0047.362 (0) Table wp_revslider_navigations: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0047.403 (0) Table wp_revslider_sliders: Total expected rows (approximate): 4
+0047.410 (0) Table wp_revslider_sliders: Total rows added: 4 in 0.01 seconds
+0047.413 (0) Table wp_revslider_sliders: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_sliders.table.gz - 3.6 KB)
+0047.424 (0) Table wp_revslider_slides: Total expected rows (approximate): 4
+0047.432 (0) Table wp_revslider_slides: Total rows added: 4 in 0.01 seconds
+0047.434 (0) Table wp_revslider_slides: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_slides.table.gz - 4.3 KB)
+0047.444 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0047.450 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0047.452 (0) Table wp_revslider_static_slides: finishing file (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0047.460 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_options.table.gz (1/25): adding to final database dump
+0047.492 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_users.table.gz (2/25): adding to final database dump
+0047.504 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_usermeta.table.gz (3/25): adding to final database dump
+0047.508 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_commentmeta.table.gz (4/25): adding to final database dump
+0047.512 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_comments.table.gz (5/25): adding to final database dump
+0047.516 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_links.table.gz (6/25): adding to final database dump
+0047.523 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_postmeta.table.gz (7/25): adding to final database dump
+0047.539 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_posts.table.gz (8/25): adding to final database dump
+0047.693 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_term_relationships.table.gz (9/25): adding to final database dump
+0047.698 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_term_taxonomy.table.gz (10/25): adding to final database dump
+0047.702 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_termmeta.table.gz (11/25): adding to final database dump
+0047.704 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_terms.table.gz (12/25): adding to final database dump
+0047.709 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_yoast_seo_links.table.gz (13/25): adding to final database dump
+0047.712 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_yoast_seo_meta.table.gz (14/25): adding to final database dump
+0047.715 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_layerslider.table.gz (15/25): adding to final database dump
+0047.720 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_layerslider_revisions.table.gz (16/25): adding to final database dump
+0047.722 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_masterslider_options.table.gz (17/25): adding to final database dump
+0047.725 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_masterslider_sliders.table.gz (18/25): adding to final database dump
+0047.730 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_micro_revisions.table.gz (19/25): adding to final database dump
+0047.737 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_css.table.gz (20/25): adding to final database dump
+0047.742 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_layer_animations.table.gz (21/25): adding to final database dump
+0047.748 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_navigations.table.gz (22/25): adding to final database dump
+0047.753 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_sliders.table.gz (23/25): adding to final database dump
+0047.757 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_slides.table.gz (24/25): adding to final database dump
+0047.761 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db-table-wp_revslider_static_slides.table.gz (25/25): adding to final database dump
+0047.774 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz: finished writing out complete database file (624 KB)
+0047.800 (0) Total database tables backed up: 25 (backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz, size: 678949, sha256)
+0047.820 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0047.822 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0047.824 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0047.827 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.829 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.831 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.832 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.834 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.835 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.837 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0047.840 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0047.844 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0047.846 (0) Saving backup history. Total backup size: 170.1 MB
+0047.855 (0) Requesting upload of the files that have not yet been successfully uploaded (12)
+0047.861 (0) Cloud backup selection (1/2): googledrive with instance (1/1)
+0047.864 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-60f40f73326b2b53bb5c608c785f1e70)
+0051.656 (0) Google Drive quota usage: used=52320.3 MB, total=102400 MB, available=50079.7 MB
+0051.661 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0052.170 (0) Googledrive chunked upload: 4.1 % uploaded (1048576)
+0052.393 (0) Googledrive chunked upload: 8.3 % uploaded (2097152)
+0052.708 (0) Googledrive chunked upload: 12.4 % uploaded (3145728)
+0052.917 (0) Googledrive chunked upload: 16.5 % uploaded (4194304)
+0053.145 (0) Googledrive chunked upload: 20.6 % uploaded (5242880)
+0053.344 (0) Googledrive chunked upload: 24.8 % uploaded (6291456)
+0053.687 (0) Googledrive chunked upload: 28.9 % uploaded (7340032)
+0053.887 (0) Googledrive chunked upload: 33 % uploaded (8388608)
+0054.112 (0) Googledrive chunked upload: 37.2 % uploaded (9437184)
+0054.425 (0) Googledrive chunked upload: 41.3 % uploaded (10485760)
+0054.631 (0) Googledrive chunked upload: 45.4 % uploaded (11534336)
+0054.847 (0) Googledrive chunked upload: 49.5 % uploaded (12582912)
+0055.073 (0) Googledrive chunked upload: 53.7 % uploaded (13631488)
+0055.341 (0) Googledrive chunked upload: 57.8 % uploaded (14680064)
+0055.603 (0) Googledrive chunked upload: 61.9 % uploaded (15728640)
+0055.928 (0) Googledrive chunked upload: 66.1 % uploaded (16777216)
+0056.214 (0) Googledrive chunked upload: 70.2 % uploaded (17825792)
+0056.511 (0) Googledrive chunked upload: 74.3 % uploaded (18874368)
+0056.801 (0) Googledrive chunked upload: 78.4 % uploaded (19922944)
+0057.299 (0) Googledrive chunked upload: 82.6 % uploaded (20971520)
+0057.576 (0) Googledrive chunked upload: 86.7 % uploaded (22020096)
+0057.913 (0) Googledrive chunked upload: 90.8 % uploaded (23068672)
+0058.266 (0) Googledrive chunked upload: 94.9 % uploaded (24117248)
+0058.582 (0) Googledrive chunked upload: 99.1 % uploaded (25165824)
+0059.614 (0) Googledrive chunked upload: 100 % uploaded (25165824)
+0059.622 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip uploaded to Google Drive in 7.96 seconds
+0059.629 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip (googledrive, more services to follow)
+0059.949 (0) Google Drive quota usage: used=52344.6 MB, total=102400 MB, available=50055.4 MB
+0059.951 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0060.568 (0) Googledrive chunked upload: 15 % uploaded (1048576)
+0060.885 (0) Googledrive chunked upload: 30 % uploaded (2097152)
+0061.162 (0) Googledrive chunked upload: 45 % uploaded (3145728)
+0061.404 (0) Googledrive chunked upload: 60 % uploaded (4194304)
+0061.691 (0) Googledrive chunked upload: 75 % uploaded (5242880)
+0061.983 (0) Googledrive chunked upload: 89.9 % uploaded (6291456)
+0063.039 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0063.048 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip uploaded to Google Drive in 3.09 seconds
+0063.053 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip (googledrive, more services to follow)
+0063.334 (0) Google Drive quota usage: used=52351.2 MB, total=102400 MB, available=50048.8 MB
+0063.339 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0064.159 (0) Googledrive chunked upload: 14.8 % uploaded (1048576)
+0064.412 (0) Googledrive chunked upload: 29.6 % uploaded (2097152)
+0064.655 (0) Googledrive chunked upload: 44.4 % uploaded (3145728)
+0064.896 (0) Googledrive chunked upload: 59.2 % uploaded (4194304)
+0065.127 (0) Googledrive chunked upload: 74 % uploaded (5242880)
+0065.363 (0) Googledrive chunked upload: 88.8 % uploaded (6291456)
+0066.604 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0066.610 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip uploaded to Google Drive in 3.26 seconds
+0066.614 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip (googledrive, more services to follow)
+0066.924 (0) Google Drive quota usage: used=52358 MB, total=102400 MB, available=50042 MB
+0066.932 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0067.590 (0) Googledrive chunked upload: 4.2 % uploaded (1048576)
+0067.820 (0) Googledrive chunked upload: 8.4 % uploaded (2097152)
+0068.038 (0) Googledrive chunked upload: 12.6 % uploaded (3145728)
+0068.254 (0) Googledrive chunked upload: 16.8 % uploaded (4194304)
+0068.484 (0) Googledrive chunked upload: 21 % uploaded (5242880)
+0068.774 (0) Googledrive chunked upload: 25.1 % uploaded (6291456)
+0069.094 (0) Googledrive chunked upload: 29.3 % uploaded (7340032)
+0069.345 (0) Googledrive chunked upload: 33.5 % uploaded (8388608)
+0069.579 (0) Googledrive chunked upload: 37.7 % uploaded (9437184)
+0069.839 (0) Googledrive chunked upload: 41.9 % uploaded (10485760)
+0070.124 (0) Googledrive chunked upload: 46.1 % uploaded (11534336)
+0070.367 (0) Googledrive chunked upload: 50.3 % uploaded (12582912)
+0070.640 (0) Googledrive chunked upload: 54.5 % uploaded (13631488)
+0070.867 (0) Googledrive chunked upload: 58.7 % uploaded (14680064)
+0071.138 (0) Googledrive chunked upload: 62.9 % uploaded (15728640)
+0071.391 (0) Googledrive chunked upload: 67.1 % uploaded (16777216)
+0071.626 (0) Googledrive chunked upload: 71.2 % uploaded (17825792)
+0071.849 (0) Googledrive chunked upload: 75.4 % uploaded (18874368)
+0072.095 (0) Googledrive chunked upload: 79.6 % uploaded (19922944)
+0072.457 (0) Googledrive chunked upload: 83.8 % uploaded (20971520)
+0072.715 (0) Googledrive chunked upload: 88 % uploaded (22020096)
+0073.008 (0) Googledrive chunked upload: 92.2 % uploaded (23068672)
+0073.627 (0) Googledrive chunked upload: 96.4 % uploaded (24117248)
+0074.724 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0074.730 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip uploaded to Google Drive in 7.8 seconds
+0074.737 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip (googledrive, more services to follow)
+0075.006 (0) Google Drive quota usage: used=52381.8 MB, total=102400 MB, available=50018.2 MB
+0075.008 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0075.707 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+0075.968 (0) Googledrive chunked upload: 8 % uploaded (2097152)
+0076.218 (0) Googledrive chunked upload: 12 % uploaded (3145728)
+0076.474 (0) Googledrive chunked upload: 16 % uploaded (4194304)
+0076.722 (0) Googledrive chunked upload: 19.9 % uploaded (5242880)
+0076.987 (0) Googledrive chunked upload: 23.9 % uploaded (6291456)
+0077.294 (0) Googledrive chunked upload: 27.9 % uploaded (7340032)
+0077.570 (0) Googledrive chunked upload: 31.9 % uploaded (8388608)
+0078.021 (0) Googledrive chunked upload: 35.9 % uploaded (9437184)
+0078.337 (0) Googledrive chunked upload: 39.9 % uploaded (10485760)
+0078.613 (0) Googledrive chunked upload: 43.9 % uploaded (11534336)
+0078.938 (0) Googledrive chunked upload: 47.9 % uploaded (12582912)
+0079.312 (0) Googledrive chunked upload: 51.9 % uploaded (13631488)
+0079.583 (0) Googledrive chunked upload: 55.8 % uploaded (14680064)
+0079.823 (0) Googledrive chunked upload: 59.8 % uploaded (15728640)
+0080.231 (0) Googledrive chunked upload: 63.8 % uploaded (16777216)
+0080.618 (0) Googledrive chunked upload: 67.8 % uploaded (17825792)
+0080.904 (0) Googledrive chunked upload: 71.8 % uploaded (18874368)
+0081.177 (0) Googledrive chunked upload: 75.8 % uploaded (19922944)
+0081.558 (0) Googledrive chunked upload: 79.8 % uploaded (20971520)
+0081.805 (0) Googledrive chunked upload: 83.8 % uploaded (22020096)
+0082.099 (0) Googledrive chunked upload: 87.8 % uploaded (23068672)
+0082.358 (0) Googledrive chunked upload: 91.8 % uploaded (24117248)
+0082.622 (0) Googledrive chunked upload: 95.7 % uploaded (25165824)
+0082.882 (0) Googledrive chunked upload: 99.7 % uploaded (26214400)
+0083.927 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0083.935 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip uploaded to Google Drive in 8.92 seconds
+0083.942 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip (googledrive, more services to follow)
+0084.233 (0) Google Drive quota usage: used=52406.9 MB, total=102400 MB, available=49993.1 MB
+0084.449 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0085.133 (0) Googledrive chunked upload: 4 % uploaded (1048576)
+0085.403 (0) Googledrive chunked upload: 8 % uploaded (2097152)
+0085.691 (0) Googledrive chunked upload: 11.9 % uploaded (3145728)
+0085.950 (0) Googledrive chunked upload: 15.9 % uploaded (4194304)
+0086.271 (0) Googledrive chunked upload: 19.9 % uploaded (5242880)
+0086.515 (0) Googledrive chunked upload: 23.9 % uploaded (6291456)
+0086.781 (0) Googledrive chunked upload: 27.9 % uploaded (7340032)
+0087.047 (0) Googledrive chunked upload: 31.8 % uploaded (8388608)
+0087.436 (0) Googledrive chunked upload: 35.8 % uploaded (9437184)
+0087.742 (0) Googledrive chunked upload: 39.8 % uploaded (10485760)
+0088.042 (0) Googledrive chunked upload: 43.8 % uploaded (11534336)
+0088.311 (0) Googledrive chunked upload: 47.7 % uploaded (12582912)
+0088.545 (0) Googledrive chunked upload: 51.7 % uploaded (13631488)
+0088.780 (0) Googledrive chunked upload: 55.7 % uploaded (14680064)
+0089.034 (0) Googledrive chunked upload: 59.7 % uploaded (15728640)
+0089.435 (0) Googledrive chunked upload: 63.7 % uploaded (16777216)
+0089.756 (0) Googledrive chunked upload: 67.6 % uploaded (17825792)
+0090.061 (0) Googledrive chunked upload: 71.6 % uploaded (18874368)
+0090.332 (0) Googledrive chunked upload: 75.6 % uploaded (19922944)
+0090.594 (0) Googledrive chunked upload: 79.6 % uploaded (20971520)
+0091.004 (0) Googledrive chunked upload: 83.6 % uploaded (22020096)
+0091.347 (0) Googledrive chunked upload: 87.5 % uploaded (23068672)
+0091.632 (0) Googledrive chunked upload: 91.5 % uploaded (24117248)
+0091.992 (0) Googledrive chunked upload: 95.5 % uploaded (25165824)
+0092.280 (0) Googledrive chunked upload: 99.5 % uploaded (26214400)
+0093.143 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0093.150 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip uploaded to Google Drive in 8.7 seconds
+0093.156 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip (googledrive, more services to follow)
+0093.446 (0) Google Drive quota usage: used=52432 MB, total=102400 MB, available=49968 MB
+0093.450 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0094.100 (0) Googledrive chunked upload: 3.9 % uploaded (1048576)
+0094.397 (0) Googledrive chunked upload: 7.8 % uploaded (2097152)
+0094.682 (0) Googledrive chunked upload: 11.8 % uploaded (3145728)
+0094.953 (0) Googledrive chunked upload: 15.7 % uploaded (4194304)
+0095.228 (0) Googledrive chunked upload: 19.6 % uploaded (5242880)
+0095.446 (0) Googledrive chunked upload: 23.5 % uploaded (6291456)
+0095.801 (0) Googledrive chunked upload: 27.5 % uploaded (7340032)
+0096.289 (0) Googledrive chunked upload: 31.4 % uploaded (8388608)
+0096.661 (0) Googledrive chunked upload: 35.3 % uploaded (9437184)
+0096.949 (0) Googledrive chunked upload: 39.2 % uploaded (10485760)
+0097.236 (0) Googledrive chunked upload: 43.1 % uploaded (11534336)
+0097.525 (0) Googledrive chunked upload: 47.1 % uploaded (12582912)
+0097.795 (0) Googledrive chunked upload: 51 % uploaded (13631488)
+0098.141 (0) Googledrive chunked upload: 54.9 % uploaded (14680064)
+0098.427 (0) Googledrive chunked upload: 58.8 % uploaded (15728640)
+0098.688 (0) Googledrive chunked upload: 62.7 % uploaded (16777216)
+0098.952 (0) Googledrive chunked upload: 66.7 % uploaded (17825792)
+0099.438 (0) Googledrive chunked upload: 70.6 % uploaded (18874368)
+0100.028 (0) Googledrive chunked upload: 74.5 % uploaded (19922944)
+0100.576 (0) Googledrive chunked upload: 78.4 % uploaded (20971520)
+0100.986 (0) Googledrive chunked upload: 82.4 % uploaded (22020096)
+0101.516 (0) Googledrive chunked upload: 86.3 % uploaded (23068672)
+0101.840 (0) Googledrive chunked upload: 90.2 % uploaded (24117248)
+0102.357 (0) Googledrive chunked upload: 94.1 % uploaded (25165824)
+0102.904 (0) Googledrive chunked upload: 98 % uploaded (26214400)
+0104.164 (0) Googledrive chunked upload: 100 % uploaded (26214400)
+0104.170 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip uploaded to Google Drive in 10.72 seconds
+0104.175 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip (googledrive, more services to follow)
+0104.440 (0) Google Drive quota usage: used=52457.5 MB, total=102400 MB, available=49942.5 MB
+0104.441 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0105.419 (0) Googledrive chunked upload: 4.4 % uploaded (1048576)
+0105.997 (0) Googledrive chunked upload: 8.8 % uploaded (2097152)
+0106.570 (0) Googledrive chunked upload: 13.2 % uploaded (3145728)
+0107.245 (0) Googledrive chunked upload: 17.6 % uploaded (4194304)
+0107.846 (0) Googledrive chunked upload: 22 % uploaded (5242880)
+0108.495 (0) Googledrive chunked upload: 26.4 % uploaded (6291456)
+0109.100 (0) Googledrive chunked upload: 30.8 % uploaded (7340032)
+0109.672 (0) Googledrive chunked upload: 35.2 % uploaded (8388608)
+0110.052 (0) Googledrive chunked upload: 39.6 % uploaded (9437184)
+0110.338 (0) Googledrive chunked upload: 44 % uploaded (10485760)
+0110.691 (0) Googledrive chunked upload: 48.4 % uploaded (11534336)
+0110.978 (0) Googledrive chunked upload: 52.8 % uploaded (12582912)
+0111.329 (0) Googledrive chunked upload: 57.2 % uploaded (13631488)
+0111.738 (0) Googledrive chunked upload: 61.6 % uploaded (14680064)
+0112.205 (0) Googledrive chunked upload: 66 % uploaded (15728640)
+0112.580 (0) Googledrive chunked upload: 70.3 % uploaded (16777216)
+0112.952 (0) Googledrive chunked upload: 74.7 % uploaded (17825792)
+0113.241 (0) Googledrive chunked upload: 79.1 % uploaded (18874368)
+0113.481 (0) Googledrive chunked upload: 83.5 % uploaded (19922944)
+0113.774 (0) Googledrive chunked upload: 87.9 % uploaded (20971520)
+0114.072 (0) Googledrive chunked upload: 92.3 % uploaded (22020096)
+0114.405 (0) Googledrive chunked upload: 96.7 % uploaded (23068672)
+0115.724 (0) Googledrive chunked upload: 100 % uploaded (23068672)
+0115.730 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip uploaded to Google Drive in 11.29 seconds
+0115.734 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip (googledrive, more services to follow)
+0116.000 (0) Google Drive quota usage: used=52480.3 MB, total=102400 MB, available=49919.7 MB
+0116.003 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0117.534 (0) Googledrive chunked upload: 100 % uploaded
+0117.548 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip uploaded to Google Drive in 1.54 seconds
+0117.558 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip (googledrive, more services to follow)
+0118.699 (0) Google Drive quota usage: used=52481.1 MB, total=102400 MB, available=49918.9 MB
+0118.702 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0119.306 (0) Googledrive chunked upload: 14.7 % uploaded (1048576)
+0119.610 (0) Googledrive chunked upload: 29.4 % uploaded (2097152)
+0119.925 (0) Googledrive chunked upload: 44.1 % uploaded (3145728)
+0120.197 (0) Googledrive chunked upload: 58.8 % uploaded (4194304)
+0120.511 (0) Googledrive chunked upload: 73.5 % uploaded (5242880)
+0120.770 (0) Googledrive chunked upload: 88.1 % uploaded (6291456)
+0121.911 (0) Googledrive chunked upload: 100 % uploaded (6291456)
+0121.919 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip uploaded to Google Drive in 3.21 seconds
+0121.923 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip (googledrive, more services to follow)
+0122.201 (0) Google Drive quota usage: used=52487.9 MB, total=102400 MB, available=49912.1 MB
+0122.204 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0122.829 (0) Googledrive chunked upload: 54.5 % uploaded (1048576)
+0124.237 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0124.253 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip uploaded to Google Drive in 2.05 seconds
+0124.263 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip (googledrive, more services to follow)
+0124.647 (0) Google Drive quota usage: used=52489.7 MB, total=102400 MB, available=49910.3 MB
+0124.650 (0) backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz: Attempting to upload to Google Drive (into folder id: 1UNozbNVgxiXYgu_dTKjPctZQ1LFOxcEN)
+0126.312 (0) Googledrive chunked upload: 100 % uploaded
+0126.320 (0) OK: Archive backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz uploaded to Google Drive in 1.67 seconds
+0126.324 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz (googledrive, more services to follow)
+0126.329 (0) Cloud backup selection (2/2): azure with instance (1/1) (last)
+0126.332 (0) Beginning dispatch of backup to remote (azure) (instance identifier s-de33d1e207e58715cb3b0c2f4bc4ef43)
+0126.377 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip
+0127.435 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip from byte: 0; block/chunk: 1
+0127.457 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip (chunks: 13, of size: 2097152) -> azure://webback/thermal/ (0)
+0131.054 (0) Azure chunked upload: 8.3 % uploaded (1)
+0133.691 (0) Azure chunked upload: 16.5 % uploaded (2)
+0137.045 (0) Azure chunked upload: 24.8 % uploaded (3)
+0140.764 (0) Azure chunked upload: 33 % uploaded (4)
+0144.671 (0) Azure chunked upload: 41.3 % uploaded (5)
+0147.873 (0) Azure chunked upload: 49.5 % uploaded (6)
+0150.858 (0) Azure chunked upload: 57.8 % uploaded (7)
+0154.205 (0) Azure chunked upload: 66.1 % uploaded (8)
+0159.560 (0) Azure chunked upload: 74.3 % uploaded (9)
+0164.909 (0) Azure chunked upload: 82.6 % uploaded (10)
+0169.345 (0) Azure chunked upload: 90.8 % uploaded (11)
+0174.004 (0) Azure chunked upload: 99.1 % uploaded (12)
+0174.933 (0) Azure chunked upload: 100 % uploaded (13)
+0174.940 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0175.374 (0) Azure upload: success
+0175.379 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip (808dd0630774b503bed5e5f5aec5c977)
+0175.617 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins.zip: OK
+0175.621 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip
+0175.996 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip from byte: 0; block/chunk: 1
+0176.000 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip (chunks: 4, of size: 2097152) -> azure://webback/thermal/ (0)
+0181.319 (0) Azure chunked upload: 30 % uploaded (1)
+0184.749 (0) Azure chunked upload: 60 % uploaded (2)
+0187.713 (0) Azure chunked upload: 89.9 % uploaded (3)
+0189.787 (0) Azure chunked upload: 100 % uploaded (4)
+0189.800 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0190.225 (0) Azure upload: success
+0190.229 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip (2894d8ebb65b1cfb7fa0b5004cf83c1a)
+0190.240 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-plugins2.zip: OK
+0190.242 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip
+0190.614 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip from byte: 0; block/chunk: 1
+0190.616 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip (chunks: 4, of size: 2097152) -> azure://webback/thermal/ (0)
+0198.271 (0) Azure chunked upload: 29.6 % uploaded (1)
+0203.959 (0) Azure chunked upload: 59.2 % uploaded (2)
+0208.029 (0) Azure chunked upload: 88.8 % uploaded (3)
+0209.339 (0) Azure chunked upload: 100 % uploaded (4)
+0209.344 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0209.769 (0) Azure upload: success
+0209.773 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip (af35d785db60fa015e77308d86851fbb)
+0209.784 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-themes.zip: OK
+0209.787 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip
+0210.157 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip from byte: 0; block/chunk: 1
+0210.159 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip (chunks: 12, of size: 2097152) -> azure://webback/thermal/ (0)
+0214.397 (0) Azure chunked upload: 8.4 % uploaded (1)
+0218.806 (0) Azure chunked upload: 16.8 % uploaded (2)
+0221.795 (0) Azure chunked upload: 25.1 % uploaded (3)
+0224.469 (0) Azure chunked upload: 33.5 % uploaded (4)
+0227.286 (0) Azure chunked upload: 41.9 % uploaded (5)
+0232.572 (0) Azure chunked upload: 50.3 % uploaded (6)
+0238.288 (0) Azure chunked upload: 58.7 % uploaded (7)
+0246.339 (0) Azure chunked upload: 67.1 % uploaded (8)
+0250.056 (0) Azure chunked upload: 75.4 % uploaded (9)
+0254.437 (0) Azure chunked upload: 83.8 % uploaded (10)
+0259.364 (0) The scheduled resumption is within 45 seconds - will reschedule
+0259.370 (0) Rescheduling resumption 1: moving to 345 seconds from now (1538158790)
+0259.378 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0259.380 (0) Azure chunked upload: 92.2 % uploaded (11)
+0266.538 (0) Azure chunked upload: 100 % uploaded (12)
+0266.545 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0267.025 (0) Azure upload: success
+0267.039 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip (826db956bf4a05410a6d6b4141930b2f)
+0267.066 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads.zip: OK
+0267.068 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip
+0267.436 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip from byte: 0; block/chunk: 1
+0267.440 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip (chunks: 13, of size: 2097152) -> azure://webback/thermal/ (0)
+0272.922 (0) Azure chunked upload: 8 % uploaded (1)
+0277.553 (0) Azure chunked upload: 16 % uploaded (2)
+0283.102 (0) Azure chunked upload: 23.9 % uploaded (3)
+0288.805 (0) Azure chunked upload: 31.9 % uploaded (4)
+0293.583 (0) Azure chunked upload: 39.9 % uploaded (5)
+0298.020 (0) Azure chunked upload: 47.9 % uploaded (6)
+0301.926 (0) Azure chunked upload: 55.8 % uploaded (7)
+0306.897 (0) Azure chunked upload: 63.8 % uploaded (8)
+0312.792 (0) Azure chunked upload: 71.8 % uploaded (9)
+0320.333 (0) The time we have been running (320.3) is approaching the resumption interval (345) - increasing resumption interval to 351
+0320.350 (0) Azure chunked upload: 79.8 % uploaded (10)
+0328.166 (0) The time we have been running (328.2) is approaching the resumption interval (351) - increasing resumption interval to 359
+0328.172 (0) Azure chunked upload: 87.8 % uploaded (11)
+0336.115 (0) The time we have been running (336.1) is approaching the resumption interval (359) - increasing resumption interval to 367
+0336.133 (0) Azure chunked upload: 95.7 % uploaded (12)
+0339.640 (0) The time we have been running (339.6) is approaching the resumption interval (367) - increasing resumption interval to 370
+0339.646 (0) Azure chunked upload: 100 % uploaded (13)
+0339.651 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0340.092 (0) Azure upload: success
+0340.099 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip (109e3a6eb842e61ef7f6de9ba03e538d)
+0340.119 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads2.zip: OK
+0340.122 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip
+0340.493 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip from byte: 0; block/chunk: 1
+0340.496 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip (chunks: 13, of size: 2097152) -> azure://webback/thermal/ (0)
+0350.154 (0) The time we have been running (350.1) is approaching the resumption interval (370) - increasing resumption interval to 381
+0350.159 (0) Azure chunked upload: 8 % uploaded (1)
+0356.204 (0) The time we have been running (356.2) is approaching the resumption interval (381) - increasing resumption interval to 387
+0356.211 (0) Azure chunked upload: 15.9 % uploaded (2)
+0361.910 (0) The time we have been running (361.9) is approaching the resumption interval (387) - increasing resumption interval to 392
+0361.916 (0) Azure chunked upload: 23.9 % uploaded (3)
+0365.610 (0) The time we have been running (365.6) is approaching the resumption interval (392) - increasing resumption interval to 396
+0365.615 (0) Azure chunked upload: 31.8 % uploaded (4)
+0368.598 (0) The time we have been running (368.6) is approaching the resumption interval (396) - increasing resumption interval to 399
+0368.602 (0) Azure chunked upload: 39.8 % uploaded (5)
+0372.112 (0) The time we have been running (372.1) is approaching the resumption interval (399) - increasing resumption interval to 403
+0372.116 (0) Azure chunked upload: 47.7 % uploaded (6)
+0376.553 (0) The time we have been running (376.5) is approaching the resumption interval (403) - increasing resumption interval to 407
+0376.563 (0) Azure chunked upload: 55.7 % uploaded (7)
+0381.609 (0) The time we have been running (381.6) is approaching the resumption interval (407) - increasing resumption interval to 412
+0381.614 (0) Azure chunked upload: 63.7 % uploaded (8)
+0386.200 (0) The time we have been running (386.2) is approaching the resumption interval (412) - increasing resumption interval to 417
+0386.207 (0) Azure chunked upload: 71.6 % uploaded (9)
+0391.524 (0) The time we have been running (391.5) is approaching the resumption interval (417) - increasing resumption interval to 422
+0391.539 (0) Azure chunked upload: 79.6 % uploaded (10)
+0397.601 (0) The time we have been running (397.6) is approaching the resumption interval (422) - increasing resumption interval to 428
+0397.617 (0) Azure chunked upload: 87.5 % uploaded (11)
+0402.976 (0) The time we have been running (403) is approaching the resumption interval (428) - increasing resumption interval to 433
+0402.982 (0) Azure chunked upload: 95.5 % uploaded (12)
+0405.320 (0) The time we have been running (405.3) is approaching the resumption interval (433) - increasing resumption interval to 436
+0405.339 (0) Azure chunked upload: 100 % uploaded (13)
+0405.351 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0405.782 (0) Azure upload: success
+0405.789 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip (d6751288d4eaf1305246636891eeca7d)
+0405.813 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads3.zip: OK
+0405.815 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip
+0406.185 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip from byte: 0; block/chunk: 1
+0406.187 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip (chunks: 13, of size: 2097152) -> azure://webback/thermal/ (0)
+0409.725 (0) The time we have been running (409.5) is approaching the resumption interval (436) - increasing resumption interval to 440
+0409.737 (0) Azure chunked upload: 7.8 % uploaded (1)
+0413.282 (0) The time we have been running (413.3) is approaching the resumption interval (440) - increasing resumption interval to 444
+0413.294 (0) Azure chunked upload: 15.7 % uploaded (2)
+0416.283 (0) The time we have been running (416.3) is approaching the resumption interval (444) - increasing resumption interval to 447
+0416.287 (0) Azure chunked upload: 23.5 % uploaded (3)
+0419.859 (0) The time we have been running (419.8) is approaching the resumption interval (447) - increasing resumption interval to 450
+0419.866 (0) Azure chunked upload: 31.4 % uploaded (4)
+0423.834 (0) The time we have been running (423.8) is approaching the resumption interval (450) - increasing resumption interval to 454
+0423.840 (0) Azure chunked upload: 39.2 % uploaded (5)
+0427.910 (0) The time we have been running (427.9) is approaching the resumption interval (454) - increasing resumption interval to 458
+0427.915 (0) Azure chunked upload: 47.1 % uploaded (6)
+0432.556 (0) The time we have been running (432.5) is approaching the resumption interval (458) - increasing resumption interval to 463
+0432.563 (0) Azure chunked upload: 54.9 % uploaded (7)
+0437.007 (0) The time we have been running (437) is approaching the resumption interval (463) - increasing resumption interval to 467
+0437.013 (0) Azure chunked upload: 62.7 % uploaded (8)
+0440.911 (0) The time we have been running (440.9) is approaching the resumption interval (467) - increasing resumption interval to 471
+0440.916 (0) Azure chunked upload: 70.6 % uploaded (9)
+0444.246 (0) The time we have been running (444.2) is approaching the resumption interval (471) - increasing resumption interval to 475
+0444.253 (0) Azure chunked upload: 78.4 % uploaded (10)
+0448.912 (0) The time we have been running (448.9) is approaching the resumption interval (475) - increasing resumption interval to 479
+0448.918 (0) Azure chunked upload: 86.3 % uploaded (11)
+0454.822 (0) The time we have been running (454.8) is approaching the resumption interval (479) - increasing resumption interval to 485
+0454.830 (0) Azure chunked upload: 94.1 % uploaded (12)
+0458.731 (0) The time we have been running (458.7) is approaching the resumption interval (485) - increasing resumption interval to 489
+0458.738 (0) Azure chunked upload: 100 % uploaded (13)
+0458.744 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0459.175 (0) Azure upload: success
+0459.187 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip (9d108389283b2fff435d4593cb264c94)
+0459.417 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads4.zip: OK
+0459.423 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip
+0459.798 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip from byte: 0; block/chunk: 1
+0459.800 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip (chunks: 12, of size: 2097152) -> azure://webback/thermal/ (0)
+0464.386 (0) The time we have been running (464.4) is approaching the resumption interval (489) - increasing resumption interval to 495
+0464.391 (0) Azure chunked upload: 8.8 % uploaded (1)
+0468.819 (0) The time we have been running (468.8) is approaching the resumption interval (495) - increasing resumption interval to 499
+0468.824 (0) Azure chunked upload: 17.6 % uploaded (2)
+0474.937 (0) The time we have been running (474.9) is approaching the resumption interval (499) - increasing resumption interval to 505
+0474.944 (0) Azure chunked upload: 26.4 % uploaded (3)
+0478.464 (0) The time we have been running (478.5) is approaching the resumption interval (505) - increasing resumption interval to 509
+0478.469 (0) Azure chunked upload: 35.2 % uploaded (4)
+0483.792 (0) The time we have been running (483.8) is approaching the resumption interval (509) - increasing resumption interval to 514
+0483.802 (0) Azure chunked upload: 44 % uploaded (5)
+0490.232 (0) The time we have been running (490.2) is approaching the resumption interval (514) - increasing resumption interval to 521
+0490.238 (0) Azure chunked upload: 52.8 % uploaded (6)
+0493.603 (0) The time we have been running (493.6) is approaching the resumption interval (521) - increasing resumption interval to 524
+0493.607 (0) Azure chunked upload: 61.6 % uploaded (7)
+0495.509 (0) The time we have been running (495.5) is approaching the resumption interval (524) - increasing resumption interval to 526
+0495.514 (0) Azure chunked upload: 70.3 % uploaded (8)
+0497.762 (0) The time we have been running (497.8) is approaching the resumption interval (526) - increasing resumption interval to 528
+0497.768 (0) Azure chunked upload: 79.1 % uploaded (9)
+0501.504 (0) The time we have been running (501.5) is approaching the resumption interval (528) - increasing resumption interval to 532
+0501.512 (0) Azure chunked upload: 87.9 % uploaded (10)
+0506.354 (0) The time we have been running (506.3) is approaching the resumption interval (532) - increasing resumption interval to 537
+0506.359 (0) Azure chunked upload: 96.7 % uploaded (11)
+0508.407 (0) The time we have been running (508.4) is approaching the resumption interval (537) - increasing resumption interval to 539
+0508.415 (0) Azure chunked upload: 100 % uploaded (12)
+0508.423 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0508.854 (0) Azure upload: success
+0508.862 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip (3328cbf08e211fa482056f2477c6e9a0)
+0508.885 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads5.zip: OK
+0508.893 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip
+0509.263 (0) Azure: will upload file in one operation (azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip)
+0512.027 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip (954b62d65d6157a5e8a5ed32879d473a)
+0512.037 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-uploads6.zip: OK
+0512.041 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip
+0512.412 (0) Starting fresh Azure upload to azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip from byte: 0; block/chunk: 1
+0512.413 (0) Azure upload: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip (chunks: 4, of size: 2097152) -> azure://webback/thermal/ (0)
+0518.875 (0) The time we have been running (518.9) is approaching the resumption interval (539) - increasing resumption interval to 549
+0518.880 (0) Azure chunked upload: 29.4 % uploaded (1)
+0523.866 (0) The time we have been running (523.8) is approaching the resumption interval (549) - increasing resumption interval to 554
+0523.872 (0) Azure chunked upload: 58.8 % uploaded (2)
+0526.660 (0) The time we have been running (526.7) is approaching the resumption interval (554) - increasing resumption interval to 557
+0526.664 (0) Azure chunked upload: 88.1 % uploaded (3)
+0527.612 (0) The time we have been running (527.6) is approaching the resumption interval (557) - increasing resumption interval to 558
+0527.619 (0) Azure chunked upload: 100 % uploaded (4)
+0527.625 (0) Azure: all chunks uploaded; now commmitting blob blocks
+0528.052 (0) Azure upload: success
+0528.056 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip (702aa9de9b56a2e2ff1b570745a7b550)
+0528.069 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-wpcore.zip: OK
+0528.072 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip
+0528.442 (0) Azure: will upload file in one operation (azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip)
+0529.956 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip (a26d27591c6d3a8a41378355b442c1c6)
+0529.965 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-others.zip: OK
+0529.969 (0) azure upload : attempt: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz
+0530.342 (0) Azure: will upload file in one operation (azure://webback/thermal/backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz)
+0531.104 (0) Recording as successfully uploaded: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz (1c69b2ea9ce926be5486d3b1046256e3)
+0531.110 (0) Deleting local file: backup_2018-09-28-1909_thermal_image_uk_4141668065f2-db.gz: OK
+0531.117 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0531.122 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1536150240
+0531.125 (0) Number of backup sets in history: 5; groups (db): 1
+0531.127 (0) Examining (for databases) backup set with group_id=0, nonce=4141668065f2, datestamp=1538158186 (Sep 28 2018 18:09:46)
+0531.129 (0) This backup set is the backup set just made, so will not be deleted.
+0531.129 (0) Examining (for databases) backup set with group_id=0, nonce=de00b3ca0d34, datestamp=1538071256 (Sep 27 2018 18:00:56)
+0531.129 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.130 (0) Examining (for databases) backup set with group_id=0, nonce=5d4454987bdd, datestamp=1537993869 (Sep 26 2018 20:31:09)
+0531.130 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.130 (0) Examining (for databases) backup set with group_id=0, nonce=d3eb991ea376, datestamp=1537904458 (Sep 25 2018 19:40:58)
+0531.130 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.131 (0) Number of backup sets in history: 5; groups (files): 1
+0531.132 (0) Examining (for files) backup set with nonce=4141668065f2, datestamp=1538158186 (Sep 28 2018 18:09:46)
+0531.132 (0) This backup set is the backup set just made, so will not be deleted.
+0531.133 (0) This backup set is the backup set just made, so will not be deleted.
+0531.133 (0) This backup set is the backup set just made, so will not be deleted.
+0531.134 (0) This backup set is the backup set just made, so will not be deleted.
+0531.134 (0) This backup set is the backup set just made, so will not be deleted.
+0531.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.135 (0) Examining (for files) backup set with nonce=de00b3ca0d34, datestamp=1538071256 (Sep 27 2018 18:00:56)
+0531.135 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.136 (0) Examining (for files) backup set with nonce=5d4454987bdd, datestamp=1537993869 (Sep 26 2018 20:31:09)
+0531.136 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.136 (0) Examining (for files) backup set with nonce=d3eb991ea376, datestamp=1537904458 (Sep 25 2018 19:40:58)
+0531.136 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.136 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0531.143 (0) Resume backup (4141668065f2, 0): finish run
+0531.149 (0) Decremented the semaphore (fd) by 1
+0531.154 (0) Semaphore (fd) unlocked
+0531.157 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0531.171 (0) No report will be sent to this address, as it is configured to receive them only when there are errors or warnings: rober...
+0531.173 (0) The backup apparently succeeded and is now complete
